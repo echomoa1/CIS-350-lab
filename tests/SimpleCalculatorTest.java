@@ -22,14 +22,14 @@ public class SimpleCalculatorTest {
         SimpleCalculator calc = new SimpleCalculator();
         assertEquals(calc.div(8, 2), 4);
     }
-//    @Test
-//    public void testMod() {
-//        SimpleCalculator calc = new SimpleCalculator();
-//        assertEquals(calc.mod(8, 2), 0);
-//    }
-//    @Test
-//    public void testSqr() {
-//        SimpleCalculator calc = new SimpleCalculator();
-//        assertEquals(calc.sqr(8), 64);
-//    }
+    @Test
+    public void testMod() {
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(calc.mod(8, 2), 0);
+    }
+    @Test
+    public void testSqr() {
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(calc.sqr(8), 64);
+    }
 }
